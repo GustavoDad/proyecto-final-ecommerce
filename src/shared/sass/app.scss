@@ -1,0 +1,212 @@
+// import 
+@import "variables";
+@import "mixins";
+
+* {
+    // box-sizing: border-box;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bg-footer {
+    background: $background-footer;
+}
+
+.bg-white {
+    background: $app-white;
+}
+.bg-primary {
+    background: $app-primary;
+}
+.bg-primary-light {
+    background: $app-primary-light;
+}
+.bg-secondary {
+    background: $app-secondary;
+}
+.bg-secondary-light {
+    background: $app-secondary-light;
+}
+.bg-gray {
+    background: $app-gray;
+}
+.bg-gray-contrast {
+    background: $app-gray-contrast;
+}
+.t-white {
+    color: $app-white;
+}
+.t-primary {
+    color: $app-primary;
+}
+.t-primary-light {
+    color: $app-primary-light;
+}
+.t-secondary {
+    color: $app-secondary;
+}
+.t-secondary-light {
+    color: $app-secondary-light;
+}
+.t-gray {
+    color: $app-gray;
+}
+.t-cart-primary {
+    color: $cart-primary;
+}
+.t-cart-secondary {
+    color: $cart-secondary;
+}
+
+// cada cierto tiempo cambiar imagen de fondo
+.home__banner {
+    @include bg-banner("../../assets/images/home.jpg");
+    // add fadein
+    transition: background-image 1s ease-in-out;
+    height: 70vh;
+    &-1 {
+        @include bg-banner("../../assets/images/home2.jpeg");
+        height: 70vh;
+        transition: background-image 1s ease-in-out;
+    }
+    &-2 {
+        @include bg-banner("../../assets/images/home3.jpeg");
+        height: 70vh;
+        transition: background-image 1s ease-in-out;
+    }
+    &__content {
+        position: relative;
+        top: 50%;
+        right: 0;
+    }
+}
+
+.login {
+    
+    &__banner {
+        @include bg-banner("../../assets/images/home.jpg");
+        transition: background-image 1s ease-in-out;
+        height: 100vh;
+    }
+    &__banner-1 {
+        @include bg-banner("../../assets/images/home2.jpeg");
+        height: 100vh;
+        transition: background-image 1s ease-in-out;
+    }
+    &__banner-2 {
+        @include bg-banner("../../assets/images/home3.jpeg");
+        height: 100vh;
+        transition: background-image 1s ease-in-out;
+    }
+    &__card {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+        background: #f6fcff;
+    }   
+}
+
+
+.about {
+    position: fixed;
+    &__content {
+        position: relative;
+        top: 50%;
+        right: 0;
+    }
+}
+
+.cart {
+    background: $cart-primary;
+    height: 100vh;
+
+    &__content {
+        height: 100%;
+        width: 100%;
+    }
+
+    &__left {
+        height: 100%;
+    }
+}
+
+.cart_img {
+    height: 6rem;
+    width: 5rem;
+}
+
+.overflow-container {
+    overflow: auto;
+    max-height: 50vh;
+}
+
+.bg-cart-secondary {
+    background: $cart-secondary;
+}
+
+
+.logo-size-responsive {
+    height: 100%;
+    width: 10rem;
+}
+// @media screen and (max-width: 992px) {
+//     .logo-size-responsive {
+//         height: 2.5rem;
+//         width: 2.5rem;
+//     }
+// }
+// @media screen and (max-width: 768px) {
+//     .logo-size-responsive {
+//         height: 2rem;
+//         width: 2rem;
+//     }
+// }
+// @media screen and (max-width: 576px) {
+//     .logo-size-responsive {
+//         height: 1.5rem;
+//         width: 1.5rem;
+//     }
+// }
+
+.modal-a {
+    z-index: 9999;
+    position: absolute;
+    background: #2b2b2b69;
+    width: 100%;
+    height: 100%;
+    transition: background 4s ease-in-out;
+    &__content {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: $cart-secondary;
+        color: $app-white;
+        width: 50vh;
+        height: 50vh;
+        opacity: 1; // Inicia con opacidad 0 para el fade-in
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+
+.products__no__products__size {
+    height: 70vh;
+}
+
+.navlink__style {
+    color: $app-primary-light;
+    &:hover {
+        color: $app-gray;
+    }
+    // no subrayar
+    text-decoration: none;
+}
+
+
+.size-img-product {
+    height: 14rem;
+    width: 10rem;
+}
+

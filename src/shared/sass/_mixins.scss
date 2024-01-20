@@ -1,0 +1,6 @@
+@mixin bg-banner($url){
+    background-image: url($url);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
