@@ -1,86 +1,90 @@
 [
     {
         "id": 1,
-        "name": "papaya",
-        "description": "This is product 1",
+        "name": "Servidor Hpe #1",
+        "description": "Torre de e-2224 original Intel Xeon",
         "price": 100,
         "image": "../src/assets/products/pc.jpg"
+
     },
     {
         "id": 2,
-        "name": "Product 2",
-        "description": "This is product 2",
+        "name": "Monitor LED #2",
+        "description": "Gaming 2K 4K monitor LCD",
         "price": 200,
-        "image": "https://picsum.photos/200/300"
+        "image": "../src/assets/products/tv.jpg"
     },
     {
         "id": 3,
-        "name": "Product 3",
-        "description": "This is product 3",
+        "name": "Ordenador #3",
+        "description": "Core i7 para videojuegos",
         "price": 300,
-        "image": "https://picsum.photos/200/300"
+        "image": "../src/assets/products/Computadora.jpg"
     },
     {
         "id": 4,
-        "name": "Product 4",
-        "description": "This is product 4",
+        "name": "Gaming Pc #4",
+        "description": "i5 i7 gamer pc ordenadores",
         "price": 400,
-        "image": "https://picsum.photos/200/300"
+        "image": "../src/assets/products/Gaming Pc.jpg"
     },
     {
         "id": 5,
-        "name": "Product 5",
-        "description": "This is product 5",
-        "price": 500,
-        "image": "https://picsum.photos/200/300"
+        "name": "Cargador #5",
+        "description": "Adaptador de corriente de 42V 2A",
+        "price": 900,
+        "image": "../src/assets/products/adaptador.jpg"
+
+      
     },
     {
         "id": 6,
-        "name": "Product 6",
-        "description": "This is product 6",
+        "name": "USB Flash Drive #6",
+        "description": "SanDisk CZ50 16GB",
         "price": 600,
-        "image": "https://picsum.photos/200/300"
+        "image": "../src/assets/products/usb.jpg"
     },
     {
         "id": 7,
-        "name": "Product 7",
-        "description": "This is product 7",
+        "name": "Cable de carga #7",
+        "description": "Conector Micro USB",
         "price": 700,
-        "image": "https://picsum.photos/200/300"
+        "image": "../src/assets/products/cable.jpg"
     },
     {
         "id": 8,
-        "name": "Product 8",
-        "description": "This is product 8",
+        "name": "Arphone flexible #8",
+        "description": "flexible de 5,0 pulgadas",
         "price": 800,
-        "image": "https://picsum.photos/200/300"
+        "image": "../src/assets/products/audifono.jpg"
     },
     {
         "id": 9,
-        "name": "Product 9",
-        "description": "This is product 9",
-        "price": 900,
-        "image": "https://picsum.photos/200/300"
+        "name": "Laptop #9",
+        "description": "Intel N5095 de alta calidad",
+        "price": 500,
+        "image": "../src/assets/products/laptop.jpg"
+       
     },
     {
         "id": 10,
-        "name": "Product 10",
-        "description": "This is product 10",
+        "name": "Mini Proyector #10",
+        "description": "VEYFUN PJ208 HD 720P Full HD",
         "price": 1000,
-        "image": "https://picsum.photos/200/300"
+        "image": "../src/assets/products/proyector.jpg"
     },
     {
         "id": 11,
-        "name": "Product 11",
-        "description": "This is product 11",
+        "name": "Auriculares #11",
+        "description": "inalámbricos LED Tecnologia",
         "price": 1100,
-        "image": "https://picsum.photos/200/300"
+        "image": "../src/assets/products/auriculares.jpg"
     },
     {
         "id": 12,
-        "name": "Product 12",
-        "description": "This is product 12",
+        "name": "Batería Electro. #12",
+        "description": "Banco de energía de 40000mah",
         "price": 1200,
-        "image": "https://picsum.photos/200/300"
+        "image": "../src/assets/products/carga.jpg"
     }
 ]
